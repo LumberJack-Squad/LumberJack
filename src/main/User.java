@@ -4,6 +4,7 @@ public class User {
 	
 	private String userName;
 	private int userId;
+	private float userMoney;
 	
 	public User(String userName, int userId) {
 		super();
@@ -22,6 +23,14 @@ public class User {
 	}
 	public void setUserId(int userId) {
 		this.userId = userId;
+	}
+
+	public float getUserMoney() {
+		return userMoney;
+	}
+
+	public void setUserMoney(float userMoney) {
+		this.userMoney = userMoney;
 	}
 
 }
