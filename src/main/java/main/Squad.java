@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Squad {
 	
-	private ArrayList<User> squadMembers = new ArrayList<>();
+	private ArrayList<User> squadMembers = new ArrayList<User>();
 	private User leadUser;
 	private Bill bill;
 	
